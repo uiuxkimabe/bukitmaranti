@@ -221,9 +221,9 @@ nav .hamBtn {
   }
 
   /* Nav */
-  /* nav {
-    border-bottom: 1px solid ivory;
-  } */
+  nav.show {
+    background-color: rgba(77, 73, 73, .5);
+  }
 
   nav .logo a {
     display: block;
