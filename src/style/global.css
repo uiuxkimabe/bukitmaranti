@@ -131,7 +131,7 @@ nav .hamBtn {
   text-align: center;
   position: relative;
   z-index: 99;
-  /* background-color: rgba(39, 39, 39, 0.846); */
+  background-color: rgba(39, 39, 39, 0.846);
 }
 
 #hero h1 {
@@ -257,6 +257,10 @@ nav .hamBtn {
 /* Tablet View */
 @media only screen and (max-width: 800px) {
 
+  body {
+    font-size: 90%;
+  }
+
   /* Nav */
   nav .logo a {
     display: block;
@@ -293,5 +297,8 @@ nav .hamBtn {
 
 /* Smartohone View */
 @media only screen and (max-width: 600px) {
+  body {
+    font-size: 80%;
+  }
   
 }
