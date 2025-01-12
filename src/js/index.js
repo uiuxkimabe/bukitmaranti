@@ -1,7 +1,8 @@
 // hamBtn Menu
 const menu = document.querySelector('.menu')
 const menuBtn = document.querySelector('.menuBtn')
-const menuLink = document.querySelectorAll('.menu a')
+const menuLink = document.querySelectorAll('nav a')
+console.info(menuLink)
 menuBtn.addEventListener('click', () => {
     menu.classList.toggle('show')
 })
